@@ -1,5 +1,5 @@
 ﻿namespace FactoryMethod.Abstract;
 
-internal abstract record Part
+public abstract record Part
 {
 }

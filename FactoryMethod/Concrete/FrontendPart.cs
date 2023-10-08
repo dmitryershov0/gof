@@ -2,7 +2,7 @@
 
 namespace FactoryMethod.Concrete
 {
-    internal record FrontendPart : Part
+    public record FrontendPart : Part
     {
         public FrontendPart()
         {

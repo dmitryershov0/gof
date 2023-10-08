@@ -2,7 +2,7 @@
 
 namespace FactoryMethod.Concrete;
 
-internal record BackendDeveloper : Developer
+public record BackendDeveloper : Developer
 {
     public BackendDeveloper(string name) : base(name)
     {

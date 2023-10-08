@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethod.Abstract;
 
-internal abstract record Developer
+public abstract record Developer
 {
     public string Name { get; set; }
 
